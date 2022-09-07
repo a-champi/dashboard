@@ -11,23 +11,25 @@ body{
 
 .main-container{
   width: 328px;
-  margin: 10rem auto; 
-  
+  margin: 10rem auto;
+  border: 1px solid white;
+    
 }
 
 .first-section{
    position: relative;
    border: 1px solid transparent; 
-      
+   
 }
-.main-card{
-    margin-bottom: 6rem;
+.main-card{    
+    margin-bottom: 7rem;
 }
 .main-card__user{
     background-color:hsl(246, 80%, 60%);
     display: flex;
     border-radius: 1rem;
-    padding: 2rem; 
+    padding: 32px; 
+    padding-left: 33.75px;
     position: absolute;
     /* width: 100%; */
     z-index: 10;   
@@ -88,11 +90,10 @@ main_card--active{
 
 .card{
     position: relative;    
-    margin-bottom: 7rem;
+    margin-bottom: 7.5rem;       
     
  }
-
-.card-background{
+ .card-background1{
     background:hsl(15deg, 100%, 70%); ; 
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
@@ -101,6 +102,47 @@ main_card--active{
 
 }
 
+.card-background2{
+    background:hsl(195, 74%, 62%); 
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    overflow: hidden;
+    height: 4rem;
+
+}
+
+.card-background3{
+    background:hsl(348, 100%, 68%) ; 
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    overflow: hidden;
+    height: 4rem;
+
+}
+.card-background4{
+    background:hsl(145, 58%, 55%); 
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    overflow: hidden;
+    height: 4rem;
+
+}
+.card-background5{
+    background:hsl(264, 64%, 52%); 
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    overflow: hidden;
+    height: 4rem;
+
+}
+.card-background6{
+    background: hsl(43, 84%, 65%); 
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    overflow: hidden;
+    height: 4rem;
+
+}
 .card-image{
     margin-top: -0.6rem;
     padding-left: 15rem;  
@@ -147,3 +189,9 @@ main_card--active{
     font-weight: 300;
 }
 
+
+@media(min-width: 1200px){
+ .main-container{
+    
+ }
+}
