@@ -92,15 +92,15 @@ main_card--active{
     margin-bottom: 7.5rem;       
     
  }
- .card-background{
-    /* background:hsl(15deg, 100%, 70%);  */
+ .card-background1{
+    background:hsl(15deg, 100%, 70%); ; 
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     overflow: hidden;
     height: 4rem;
 
 }
-/* 
+
 .card-background2{
     background:hsl(195, 74%, 62%); 
     border-top-left-radius: 1rem;
@@ -141,7 +141,7 @@ main_card--active{
     overflow: hidden;
     height: 4rem;
 
-} */
+}
 .card-image{
     margin-top: -0.6rem;
     padding-left: 15rem;  
